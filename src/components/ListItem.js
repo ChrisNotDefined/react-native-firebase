@@ -5,7 +5,7 @@ import firebase from "../utils/firebase";
 import AddItem from './AddItem';
 
 
-export default function ListItem() {
+export default function ListItem({user}) {
 
     const [showList,setShowList] = useState(false);
 
@@ -18,7 +18,7 @@ export default function ListItem() {
             <Text>ListItems</Text>
             </>
             ):(
-                <AddItem/>
+                <AddItem user={user}/>
             )}
             <ActionBar showList={showList} setShowList={setShowList}/>
         </View>

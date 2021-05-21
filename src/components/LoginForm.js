@@ -60,7 +60,7 @@ export default function LoginForm(props) {
             <View style={styles.login}> 
             <TouchableOpacity onPress={changeForm}>
                 <Text style={styles.btnT}>Registrate</Text>
-            </TouchableOpacity>.
+            </TouchableOpacity>
             </View>
         </>
     );

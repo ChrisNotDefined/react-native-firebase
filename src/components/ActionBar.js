@@ -3,8 +3,6 @@ import {StyleSheet, View, Text } from 'react-native';
 import firebase from "../utils/firebase";
 
 export default function ActionBar(props) {
-    console.log(props);
-
     const {showList,setShowList} = props;
 
     return(
